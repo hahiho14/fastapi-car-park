@@ -57,6 +57,7 @@ _After all prerequisites done, we need to look for the repository on author GitH
 3. Ensure we have `.env` file under `fastapi-car-park` folder. Which look like this. It will exporting env variable to our container. 
    ```sh
    PARK_CAPACITY=5
+   ACCESS_TOKEN_EXPIRE_MINUTES=5
    ```
 4. After that, we need to run our `docker-compose.yaml` by running this command.
    ```docker
